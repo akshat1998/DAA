@@ -17,6 +17,7 @@
 #define ALL(a)  (a).begin(),(a).end()
 using namespace std;
 
+// CHECK INT and CHECKPOS are for checking input data.
 int checkint(string str){
 	int len=str.size(),i=0,temp=1,ans=0;
 	if(str[0]=='-'){
